@@ -1,0 +1,48 @@
+// src/login.js
+
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import '../App.css'
+
+function Login() {
+    return (
+        <div>
+            <div className='background-img'>
+                <div className="log">
+                    <div className="row justify-content-center">
+                        <div className="col-md-4">
+                            <img src="https://digitalflake.com/wp-content/uploads/2023/04/DF_logo-transparent2.png" alt="company logo" className='sold' />
+                        </div>
+                        <form >
+                            <div className='layout'>
+                                <div className='row justify-content-center'>
+                                    <div className="form-group mb-3, col-md-10">
+                                        <label htmlFor="username">Email</label>
+                                        <input type="text" className="form-control" id="username" />
+                                    </div>
+                                </div>
+                                <div className='row justify-content-center'>
+                                    <div className="form-group mb-3, col-md-10">
+                                        <label htmlFor="password">Password</label>
+                                        <input type="password" className="form-control" id="password" />
+                                    </div>
+                                </div>
+                                <div className='row justify-content-center' >
+                                    <div className="d-grid gap-2, col-md-10">
+                                        <button type="submit" className="btn btn-block, form-group mb-3" style={{ backgroundColor: '#5C218B', color: 'white' }}>Login</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+
+
+
+export default Login;

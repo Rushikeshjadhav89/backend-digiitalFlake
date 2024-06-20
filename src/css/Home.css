@@ -1,0 +1,23 @@
+.navbar {
+    width: 100%;
+  }
+  
+  .navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  ul{
+    height: 920px;
+    background-color: #F4F4F4;
+  }
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px; /* Add some padding for better spacing */
+    width: 354px;
+    height: 54px;
+    cursor: pointer;
+  }
+

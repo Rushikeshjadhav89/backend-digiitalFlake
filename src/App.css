@@ -1,0 +1,40 @@
+.background-img{
+  background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-simple-gradient-e-commerce-web-page-picture-image_935519.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.log {
+  border: 1px solid #9F9F9F;
+  text-align: center;
+  align-items: center;
+  margin-top: 147px;
+  margin-left: 103px;
+ width: 660px;
+  height: 802px;
+  background-color: white;
+  border-radius: 10px;
+}
+button{
+  color: #5C218B;
+}
+img.sold{
+  justify-content: center;
+  width: 238px;
+  height: 124px;
+  margin-top: 40px;
+}
+.background-img{
+  width: 100%;
+  height: 100%;
+}
+
+#bts{
+  margin-top: 150px;
+}
+.layout{
+  padding-top: 150px;
+}
+
+

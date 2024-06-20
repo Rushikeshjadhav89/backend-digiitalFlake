@@ -1,0 +1,48 @@
+.city-container {
+    margin: 20px;
+  }
+  
+  .city-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .city-header h1 {
+    margin: 0;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  .text-success {
+    color: green;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  .Table{
+    width: 100%;
+    height: 100%;
+  }
+  /* .fa-pencil {
+    color: #ffc107;
+  } */
+  
+  /* .fa-trash {
+    color: #dc3545;
+  } */
+  .table-container {
+    width: 1057px;
+    height: 890px;
+    overflow: auto;
+  }
+  
+  .table-container table {
+    width: 100%;
+    /* height: 90%; */
+    table-layout: fixed;
+  }

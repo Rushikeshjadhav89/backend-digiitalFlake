@@ -1,0 +1,19 @@
+.digi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center vertically */
+    text-align: center;
+    margin-left: 500px;
+}
+
+.digi-container img {
+    width: 276px;
+    height: 146px;
+}
+
+.digi-container p {
+    margin-top: 10px; /* Adjust the margin as needed */
+    font-size: 1.2rem; /* Adjust the font size as needed */
+}
